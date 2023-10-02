@@ -1,0 +1,32 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Start of Async ailogick Code -->
+  <script>
+    'use strict';
+
+    !(function() {
+      var ailogick = window.__ailogick || {};
+      if (ailogick.invoked) {
+        console.error('ailogick snippet included twice.');
+        return;
+      }
+      ailogick.invoked = true;
+      ailogick.projectId = '9f8e8be8-23b4-4d3c-9c06-a1ed75c60926';
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.async = true;
+      script.crossorigin = 'anonymous';
+      script.src = 'https://bot.ailogick.com/widget.js';
+      var scripts = document.getElementsByTagName('script')[0];
+
+      if (scripts.parentNode == null) {
+        document.body.appendChild(script);
+      } else {
+        scripts.parentNode.insertBefore(script, scripts);
+      }
+
+      window.__ailogick = ailogick
+    })();
+  </script>
+  <!-- End of Async ailogick Code -->
+</head>
